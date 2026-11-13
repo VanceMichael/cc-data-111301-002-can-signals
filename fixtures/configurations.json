@@ -1,0 +1,20 @@
+[
+  {
+    "channel": "can0",
+    "from": 0,
+    "until": 1,
+    "dictionary": "rig-v1.dbc"
+  },
+  {
+    "channel": "can0",
+    "from": 1,
+    "until": null,
+    "dictionary": "rig-v2.dbc"
+  },
+  {
+    "channel": "can1",
+    "from": 0,
+    "until": null,
+    "dictionary": null
+  }
+]

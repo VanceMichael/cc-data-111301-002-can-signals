@@ -1,0 +1,8 @@
+VERSION "1"
+NS_ :
+BS_:
+BU_: Rig
+BO_ 256 Speed: 8 Rig
+ SG_ mode M : 0|8@1+ (1,0) [0|2] "" Rig
+ SG_ speed m1 : 8|16@1+ (0.02,0) [0|655.35] "km/h" Rig
+ SG_ temperature m2 : 8|16@1- (0.1,-40) [-100|200] "degC" Rig
