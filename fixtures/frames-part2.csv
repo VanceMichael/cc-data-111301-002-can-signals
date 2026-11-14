@@ -1,0 +1,9 @@
+time,channel,frame_id,extended,kind,data
+1.2,can1,256,0,data,01d0070000000000
+1.3,can1,772,0,data,07d05dc200000000
+1.35,can0,256,0,data,01d0070000000000
+1.4,can1,772,0,data,ffffffffffffffff
+1.5,can1,300,0,remote,
+1.6,can1,0,0,error,
+1.7,can0,256,0,data,02f4010000000000
+1.8,can2,256,0,data,01d0070000000000

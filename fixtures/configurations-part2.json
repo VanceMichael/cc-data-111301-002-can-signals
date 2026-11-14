@@ -1,0 +1,8 @@
+[
+  {
+    "channel": "can1",
+    "from": 0,
+    "until": null,
+    "dictionary": "can1.dbc"
+  }
+]

@@ -1,0 +1,13 @@
+VERSION "1"
+NS_ :
+BS_:
+BU_: Rig
+BO_ 256 Speed: 8 Rig
+ SG_ mode M : 0|8@1+ (1,0) [0|2] "" Rig
+ SG_ speed m1 : 8|16@1+ (0.01,0) [0|655.35] "km/h" Rig
+ SG_ temperature m2 : 8|16@1- (0.1,-40) [-100|200] "degC" Rig
+BO_ 772 Status: 8 Rig
+ SG_ pressure : 7|16@0+ (0.5,0) [0|1000] "kPa" Rig
+ SG_ torque : 23|12@0- (0.1,-100) [-200|200] "Nm" Rig
+ SG_ fault : 27|4@0+ (1,0) [0|3] "" Rig
+VAL_ 772 fault 0 "ok" 1 "warn" 2 "critical" 3 "failed" ;
